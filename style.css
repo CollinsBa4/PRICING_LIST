@@ -1,0 +1,151 @@
+      * {
+          margin: 0;
+          padding: 0;
+      }
+      
+      .container {
+          width: 100%;
+          padding-right: 0px;
+          padding-left: 0px;
+          margin-right: auto;
+          margin-left: auto;
+          align-content: center;
+      }
+      
+      h1 {
+          font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+          font-size: 32px;
+          font-weight: bold;
+          text-align: center;
+          color: black;
+      }
+      
+      h1::after {
+          content: '';
+          background: black;
+          display: block;
+          height: 3px;
+          width: 200px;
+          margin: auto;
+      }
+      
+      .row {
+          display: flex;
+          flex-direction: row;
+          width: 640px;
+          height: auto;
+          margin-right: 0px;
+          margin-left: 170px;
+          position: relative;
+      }
+      
+      .col {
+          align-content: center;
+          margin: 0%;
+          padding: 5%;
+          float: left;
+      }
+      
+      img {
+          width: inherit;
+          height: 20px;
+          justify-content: center;
+      }
+      
+      .single-price {
+          margin: 10px auto;
+          display: inline;
+          float: left;
+          width: 100%;
+          background-color: #efefef;
+          transition: 0.5s;
+      }
+      
+      .price-head {
+          background-color: #2196f3;
+          display: inline;
+          float: left;
+          padding: 10px 5px;
+          text-align: center;
+          width: 194.8px;
+          font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      }
+      
+      .text-center {
+          text-align: center;
+      }
+      
+      .price-head h2 {
+          color: #fff;
+          font-size: 30px;
+          font-weight: bold;
+          margin-bottom: 0;
+          padding: 5px;
+          text-transform: uppercase;
+      }
+      
+      .price-head p {
+          color: #fff;
+          font-size: 15px;
+      }
+      
+      span {
+          font-size: 15px;
+          color: white;
+      }
+      
+      .price-content {
+          display: inline;
+          float: left;
+          width: 100%;
+          padding: 0px 15px;
+      }
+      
+      ul li {
+          border-bottom: 1px solid #fff;
+          padding: 15px 10px;
+          list-style: none;
+          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      }
+      
+      ul li:last-child {
+          border: none;
+      }
+      
+      .price-buttom {
+          display: inline;
+          padding: 15px 15px 30px;
+          margin: auto;
+          text-align: center;
+      }
+      
+      .buy-btn {
+          background-color: #2196f3;
+          border-radius: 3px;
+          color: #fff;
+          display: inline-block;
+          font-size: 18px;
+          padding: 15px 50px;
+          transition: all 0.5s;
+          text-align: center;
+      }
+      
+      .buy-btn:hover {
+          color: black;
+          background-color: tomato;
+      }
+      
+      a {
+          text-decoration: none !important;
+          color: #fff !important;
+      }
+      
+      hr {
+          margin-top: 0.5%;
+          border: 1.5px solid black;
+      }
+      
+      .notapplicable {
+          text-decoration: line-through;
+          color: red;
+      }
